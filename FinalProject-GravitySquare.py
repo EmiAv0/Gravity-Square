@@ -1,4 +1,3 @@
-#PI/AIDAN GILLISEPSE -> pls make the square eat little squares which gives a speed boost (they need to respawn), and fix gravity. thx!
 import pygame
 import sys
 import time
@@ -57,7 +56,7 @@ while playing:
         gravity_timer += 1
         gspeed += 0.00001
         print(gspeed)
-        # added by pi: this basically just only applies gravity every couple of frames
+        #applies gravity every couple of frames
         if gravity_timer >= gravity_delay:
             gravity_timer = 0
             square_rect.y += gspeed
