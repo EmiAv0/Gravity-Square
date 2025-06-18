@@ -120,7 +120,7 @@ while playing:
             screen.blit(textgo, (400, 400))
             pygame.display.flip()
 
-            #print("Would you like to play again?")
+            print("Would you like to play again?")
             Y_N = input("Y or N: ")
 
             if (Y_N == "N") or (Y_N == "n"):
