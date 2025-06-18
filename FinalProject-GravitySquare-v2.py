@@ -137,3 +137,5 @@ while playing:
                 square_rect.y = 100
                 playing = True
                 food_touched= 0
+                sqh = 50
+                sqw = 50
